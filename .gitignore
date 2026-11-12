@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### 本地敏感配置（数据库密码等，参考 application-dev.yaml.example）###
+src/main/resources/application-dev.yaml
+src/main/resources/application-*.yaml
+!src/main/resources/application.yaml
+!src/main/resources/application-*-example.yaml
